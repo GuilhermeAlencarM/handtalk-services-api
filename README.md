@@ -4,17 +4,17 @@ Instalação
 
     Clone o repositório:
 
-    bash
+    git clone https://github.com/GuilhermeAlencarM/handtalk-services-api.git
 
-git clone https://github.com/GuilhermeAlencarM/handtalk-services-api.git
+
 
 Crie e ative o ambiente virtual:
 
 bash
 
-python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
-.\venv\Scripts\activate   # Windows
+    python3 -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    .\venv\Scripts\activate   # Windows
 
 Instale as dependências:
 
@@ -26,12 +26,10 @@ Uso
 
     Execute o programa:
 
-    bash
-
-uvicorn main:app
+    uvicorn main:app
 
 
 Documentação da API
 
-pode ser acessada via:http://127.0.0.1:8000/docs
+    pode ser acessada via:http://127.0.0.1:8000/docs
 
