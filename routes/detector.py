@@ -26,26 +26,26 @@ async def detect_language(request: Request):
 
     languages:
     -----------
-    Estonian      
-    Swedish       
-    English       
-    Russian       
-    Romanian      
-    Persian       
-    Pushto        
-    Spanish       
-    Hindi         
-    Korean        
-    French        
-    Portugese     
-    Indonesian    
-    Urdu          
-    Latin         
-    Turkish       
-    Dutch         
-    Tamil         
-    Thai          
-    Arabic
+    Estonian: Estoniano
+    Swedish: Sueco
+    English: Inglês
+    Russian: Russo
+    Romanian: Romeno
+    Persian: Persa
+    Pushto: Pashto
+    Spanish: Espanhol
+    Hindi: Hindi
+    Korean: Coreano
+    French: Francês
+    Portuguese: Português
+    Indonesian: Indonésio
+    Urdu: Urdu
+    Latin: Latim
+    Turkish: Turco
+    Dutch: Holandês
+    Tamil: Tâmil
+    Thai: Tailandês
+    Arabic: Árabe
     -----------    
     """
     try:
